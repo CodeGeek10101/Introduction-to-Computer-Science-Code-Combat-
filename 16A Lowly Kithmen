@@ -1,0 +1,11 @@
+# Create a second variable and attack it!
+
+enemy1 = hero.findNearestEnemy()
+hero.attack(enemy1)
+hero.attack(enemy1)
+enemy = hero.findNearestEnemy()
+hero.attack(enemy)
+hero.attack(enemy)
+hero.moveRight()
+hero.moveDown()
+hero.moveRight()
